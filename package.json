@@ -1,0 +1,29 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Kushagra Tiwari",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushagratiwari1403/Namaste-React.git"
+  },
+  "keywords": [],
+  "author": "Kushagra Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kushagratiwari1403/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/kushagratiwari1403/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "browserlist": [
+    "last 2 versions"
+  ]
+}

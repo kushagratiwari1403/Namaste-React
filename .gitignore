@@ -7,3 +7,5 @@ dist
 *.log
 # System files
 .DS_Store
+.parcel-cache
+
