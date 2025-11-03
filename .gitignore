@@ -1,0 +1,9 @@
+# Node modules
+node_modules
+# Parcel output
+dist
+.cache
+# Logs
+*.log
+# System files
+.DS_Store
