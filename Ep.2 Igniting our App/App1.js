@@ -23,5 +23,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(parent);
 
+
 // console.log(heading); => this is an object
 
