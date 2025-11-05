@@ -1,0 +1,198 @@
+/* --- Global Styles --- */
+/* This resets the default browser styles for a clean start */
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f5;
+}
+
+/* --- Header Component Start --- */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 5%;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+#logo .logo-img {
+  width: 90px;
+  cursor: pointer;
+}
+
+#nav-items ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-items ul li {
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  color: #333;
+  transition: 0.2s ease-in-out;
+}
+
+#nav-items ul li:hover {
+  color: #f3722c;
+}
+/* --- Header Component End --- */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 24px auto;
+}
+
+.restaurant-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* --- Restaurant Card Component Start --- */
+.res-card {
+  background-color: white;
+  width: 275px;
+  margin: 24px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.res-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.res-card-details {
+  padding: 16px;
+}
+
+.res-card-details h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  color: #282828;
+}
+
+.res-card-details h4 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #686868;
+  margin: 0 0 12px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.res-card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #484848;
+}
+
+.res-card-meta h5 {
+  margin: 0;
+}
+
+/* --- Footer Component Start --- */
+/* .footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff5900;
+}
+
+.footerlogo-img {
+  width: 90px;
+  cursor: pointer;
+}
+
+.quick-links ul li {
+  list-style: none;
+  align-items: center;
+  padding: 8px;
+} */
+
+/* --- Footer Component Start --- */
+
+.footer {
+  background-color: #020617;
+  color: #e2e8f0;
+  padding: 60px 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.footer-logo,
+.quick-links,
+.contact-us {
+  min-width: 200px;
+}
+
+.footerlogo-img {
+  width: 90px;
+}
+
+.quick-links ul,
+.contact-us ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-links li,
+.contact-us li {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #cbd5e1;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.quick-links li:hover,
+.contact-us li:hover {
+  color: #f3722c;
+  padding-left: 5px;
+}
+
+.disclaimer {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid #334155;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.footer-logo,
+.quick-links,
+.contact-us {
+  min-width: 200px;
+}
