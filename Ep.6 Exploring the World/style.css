@@ -119,6 +119,106 @@ body {
 .res-card-meta h5 {
   margin: 0;
 }
+/* --- Restaurant Card Component End --- */
+
+/* --- Search/Filter Section Styling Start --- */
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.filter-btn,
+.show-all-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #faa811;
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-btn:hover,
+.show-all-btn:hover {
+  background-color: #d18800;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Search Box Container */
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  max-width: 500px;
+  margin-left: auto;
+}
+
+.search-box {
+  flex: 1;
+  padding: 10px 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.search-box:focus {
+  border-color: #faa811;
+  box-shadow: 0 0 0 3px rgba(250, 168, 17, 0.1);
+}
+
+.search-box::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+.search-btn {
+  padding: 10px 24px;
+  cursor: pointer;
+  background-color: #faa811;
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+}
+
+.search-btn:hover {
+  background-color: #d18800;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.search-btn:active {
+  transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .filter {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-container {
+    margin-left: 0;
+    max-width: 100%;
+  }
+}
+/* --- Search/Filter Section Styling End --- */
 
 /* --- Footer Component Start --- */
 .footer {
@@ -172,25 +272,16 @@ body {
   font-size: 14px;
   color: #94a3b8;
 }
+/* --- Footer Component End --- */
 
-.footer-logo,
-.quick-links,
-.contact-us {
-  min-width: 200px;
-}
-
-.filter-btn {
+/* --- Login Button --- */
+.login-btn {
   padding: 8px 16px;
   cursor: pointer;
   background-color: #faa811;
   color: #000000;
   border-style: none;
   border-radius: 6px;
-}
-
-.filter-btn:hover {
-  background-color: #d18800;
-  color: black;
 }
 
 /* --- Shimmer Animation Code --- */
@@ -269,13 +360,4 @@ body {
 .shimmer-card-footer .shimmer-card-line {
   margin-top: 0;
   height: 16px;
-}
-
-.login-btn {
-  padding: 8px 16px;
-  cursor: pointer;
-  background-color: #faa811;
-  color: #000000;
-  border-style: none;
-  border-radius: 6px;
 }
