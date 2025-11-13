@@ -1,0 +1,154 @@
+{
+    "restaurants": [
+        {
+            "resId": 1,
+            "name": "Biryani Palace",
+            "location": "MG Road, Bangalore",
+            "rating": 4.5,
+            "category": "Indian, Biryani",
+            "menu": [
+                {
+                    "id": 101,
+                    "name": "Chicken Biryani",
+                    "description": "Spicy chicken biryani served with raita.",
+                    "price": 250,
+                    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&h=300&fit=crop"
+                },
+                {
+                    "id": 102,
+                    "name": "Paneer Biryani",
+                    "description": "Vegetarian biryani with soft paneer chunks.",
+                    "price": 220,
+                    "image": "https://images.unsplash.com/photo-1642821373181-696a54913e93?w=400&h=300&fit=crop"
+                },
+                {
+                    "id": 103,
+                    "name": "Mutton Korma",
+                    "description": "Tender mutton cooked in a rich, creamy sauce.",
+                    "price": 350,
+                    "image": "https://images.unsplash.com/photo-1645177628172-a94c1f96e6db?w=400&h=300&fit=crop"
+                }
+            ]
+        },
+        {
+            "resId": 2,
+            "name": "Pasta World",
+            "location": "Koramangala, Bangalore",
+            "rating": 4.2,
+            "category": "Italian, Pasta",
+            "menu": [
+                {
+                    "id": 201,
+                    "name": "Spaghetti Carbonara",
+                    "description": "Classic carbonara with bacon and creamy sauce.",
+                    "price": 300,
+                    "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=400&h=300&fit=crop"
+                },
+                {
+                    "id": 202,
+                    "name": "Penne Alfredo",
+                    "description": "Penne pasta in a rich alfredo sauce.",
+                    "price": 280,
+                    "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=300&fit=crop"
+                },
+                {
+                    "id": 203,
+                    "name": "Margherita Pizza",
+                    "description": "Thin crust pizza with fresh mozzarella and basil.",
+                    "price": 350,
+                    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=300&fit=crop"
+                }
+            ]
+        },
+        {
+            "resId": 3,
+            "name": "Sushi Central",
+            "location": "Indiranagar, Bangalore",
+            "rating": 4.8,
+            "category": "Japanese, Sushi",
+            "menu": [
+                {
+                    "id": 301,
+                    "name": "California Roll",
+                    "description": "Rolls with crab meat, avocado, and cucumber.",
+                    "price": 400,
+                    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=400&h=300&fit=crop"
+                },
+                {
+                    "id": 302,
+                    "name": "Spicy Tuna Roll",
+                    "description": "Tuna, avocado, and spicy mayo wrapped in seaweed.",
+                    "price": 450,
+                    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=400&h=300&fit=crop"
+                },
+                {
+                    "id": 303,
+                    "name": "Miso Soup",
+                    "description": "Traditional Japanese soup with tofu and seaweed.",
+                    "price": 120,
+                    "image": "https://images.unsplash.com/photo-1606491048064-b1a3a6ce7202?w=400&h=300&fit=crop"
+                }
+            ]
+        },
+        {
+            "resId": 4,
+            "name": "Tandoor Hut",
+            "location": "Jayanagar, Bangalore",
+            "rating": 4.6,
+            "category": "Indian, North Indian",
+            "menu": [
+                {
+                    "id": 401,
+                    "name": "Tandoori Chicken",
+                    "description": "Marinated chicken grilled in a tandoor oven.",
+                    "price": 350,
+                    "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&h=300&fit=crop"
+                },
+                {
+                    "id": 402,
+                    "name": "Butter Naan",
+                    "description": "Soft, buttery naan to go with your curry.",
+                    "price": 50,
+                    "image": "https://images.unsplash.com/photo-1628294895950-9805252327bc?w=400&h=300&fit=crop"
+                },
+                {
+                    "id": 403,
+                    "name": "Dal Makhani",
+                    "description": "Creamy lentils cooked in a rich tomato gravy.",
+                    "price": 200,
+                    "image": "https://images.unsplash.com/photo-1546833998-877b37c2e5c6?w=400&h=300&fit=crop"
+                }
+            ]
+        },
+        {
+            "resId": 5,
+            "name": "Burger Nation",
+            "location": "Whitefield, Bangalore",
+            "rating": 4.3,
+            "category": "Fast Food, Burgers",
+            "menu": [
+                {
+                    "id": 501,
+                    "name": "Classic Beef Burger",
+                    "description": "Juicy beef patty with lettuce, tomato, and cheese.",
+                    "price": 180,
+                    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop"
+                },
+                {
+                    "id": 502,
+                    "name": "Veg Burger",
+                    "description": "Crispy patty with fresh vegetables and mayo.",
+                    "price": 150,
+                    "image": "https://images.unsplash.com/photo-1520072959219-c595dc870360?w=400&h=300&fit=crop"
+                },
+                {
+                    "id": 503,
+                    "name": "Fries",
+                    "description": "Crispy golden fries served with ketchup.",
+                    "price": 80,
+                    "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=400&h=300&fit=crop"
+                }
+            ]
+        }
+    ]
+}
